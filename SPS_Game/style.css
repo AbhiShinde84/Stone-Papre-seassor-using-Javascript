@@ -1,0 +1,112 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('images/bg1.webp') no-repeat center center fixed; 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .game-container {
+    background: rgba(255, 255, 255, 0.9); 
+    border-radius: 15px;
+    padding: 20px 40px;
+    text-align: center;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+  }
+  
+ 
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  #instruction {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .choices button {
+    background: #74c69d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+  }
+  
+  .choices button:hover {
+    background: #40916c;
+    transform: scale(1.1); 
+  }
+  
+  .results p {
+    font-size: 1.1rem;
+    color: #444;
+    margin: 10px 0;
+  }
+  
+  .results span {
+    font-weight: bold;
+  }
+  
+  #reset {
+    background: #f94144;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+  }
+  
+  #reset:hover {
+    background: #c71d1d;
+    transform: scale(1.1); 
+  }
+  
+
+.history {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .history h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  #history-list {
+    list-style-type: none;
+    padding: 0;
+    max-height: 150px; 
+    overflow-y: auto; 
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+  }
+  
+  #history-list li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  #history-list li:last-child {
+    margin-bottom: 0;
+  }
+  
